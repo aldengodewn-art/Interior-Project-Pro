@@ -1,0 +1,13 @@
+{
+  "name": "Interior Project Pro",
+  "short_name": "Interior AI",
+  "description": "AI-assisted photography and interior critique with comparison, history, sharing, and export.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4efe8",
+  "theme_color": "#9b765a",
+  "icons": [
+    { "src": "/app-icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

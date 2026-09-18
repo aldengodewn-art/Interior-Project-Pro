@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">=Interior Project</string>
+    <string name="title_activity_main">=Interior Project</string>
+    <string name="package_name">com.alden.interiorproject</string>
+    <string name="custom_url_scheme">com.alden.interiorproject</string>
+</resources>

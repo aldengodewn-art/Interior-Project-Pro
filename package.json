@@ -1,0 +1,30 @@
+{
+  "name": "interior-project-pro",
+  "version": "2.0.0",
+  "private": true,
+  "description": "AI photography and interior rating app with secure backend, SQLite database, comparison mode, sharing, and export.",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n WEB,API -c auto \"vite --host 0.0.0.0\" \"nodemon server/server.mjs\"",
+    "client": "vite --host 0.0.0.0",
+    "server": "node server/server.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^5.0.8",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7",
+    "vite": "^5.4.14"
+  }
+}
