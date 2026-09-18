@@ -4,7 +4,11 @@
   "private": true,
   "description": "AI photography and interior rating app with secure backend, SQLite database, comparison mode, sharing, and export.",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
+    "start": "node server/server.mjs",
     "dev": "concurrently -n WEB,API -c auto \"vite --host 0.0.0.0\" \"nodemon server/server.mjs\"",
     "client": "vite --host 0.0.0.0",
     "server": "node server/server.mjs",
